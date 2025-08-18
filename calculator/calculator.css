@@ -1,0 +1,42 @@
+
+#calci {
+  border: 5px solid rgb(123, 130, 135);
+  border-radius:10px;
+ background-color: deeppink;
+ border-color: darkmagenta;
+  width: 200px;
+ margin: 20px;;
+ padding: 10px;
+ display: center;
+ align-items: center;
+
+}
+#display{
+    margin:10px;
+    width:85%;
+    background-color:rgb(127, 130, 160);
+    font-size: 20px;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(231, 10, 194, 0.642);
+    border-color: darkmagenta;
+
+}
+.button{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    background-color: lightpink;
+    border-color: crimson;
+
+
+}
+button:hover{
+    /* Add hover styles here, for example: */
+    background-color: hotpink;
+    transform: scale(0.9);
+}
+/* Removed empty button:hover ruleset */
