@@ -11,6 +11,9 @@
  align-items: center;
 
 }
+body{
+    text-align: center;
+}
 #display{
     margin:10px;
     width:85%;
